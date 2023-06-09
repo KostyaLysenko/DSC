@@ -9,3 +9,8 @@ mane_function(aa="1", d="2", a="ertyh", bb= "dgdfshdsfh")
 ########
 #ще декілька рядків коду в master
 #############
+a=10
+b=2
+test_function = a//b
+print(test_function)
+#Ще декілька рядків коду для test
