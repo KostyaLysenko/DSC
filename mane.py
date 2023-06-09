@@ -3,5 +3,5 @@ def mane_function(**kwargs):
     for k, v in kwargs.items():
         sum += v
     print(sum)
-mane_function(aa="1", d="2", a="ertyh")
+mane_function(aa="1", d="2", a="ertyh", bb="fshm;fdhm")
 
