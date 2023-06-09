@@ -5,4 +5,6 @@ def mane_function(**kwargs):
     print(sum)
 mane_function(aa="1", d="2", a="ertyh", bb="fshm;fdhm")
 #comment
-
+##
+##Ще декілька рядків коду
+#####
