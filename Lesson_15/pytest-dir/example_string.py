@@ -1,9 +1,17 @@
-def capital(x):
-    return x.capitalize()
-def reverse(x):
-    return x[::-1]
+from Tree import Node
 
-ct="hello world"
+root = Node(5)
+root.left=Node(2)
+root.right=Node(6)
 
-print(capital(ct))
-print(reverse(ct))
+
+def test_insert():
+    root.insert(7)
+    assert root.travers_in_order() == '2 5 6 7 '
+
+def test_travers_max():
+    assert root.travers_max_order()==root.travers_in_order()
+
+def test_delete_key():
+    assert root.delete_key(2)==root.travers_in_order()
+
