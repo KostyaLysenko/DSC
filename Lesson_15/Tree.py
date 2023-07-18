@@ -24,7 +24,7 @@ class Node:
         # print(self.val, end=" ") #Обхід зсередини
     #Додавання нового елементу
     def insert(self, key):
-        if key < self.val:
+        if key< self.val:
             if self.left:
                 self.left.insert(key)
             else:
@@ -34,7 +34,7 @@ class Node:
             if self.right:
                 self.right.insert(key)
             else:
-                self.right = Node(key)
+                self.right=Node(key)
                 return
      # Додавання списку елементів
     def insert_list(self, list):
